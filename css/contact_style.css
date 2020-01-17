@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+/* Navbar Styling */
+nav{
+    background:#388087;
+    color: #6fb3b8;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#logo{
+    margin-left: 50px;
+}
+
+.container{
+    margin: 0 30px;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#navbar h1 a{
+    color: #f6f6f2;
+    font-size: 24px;
+}
+
+#navbar ul li a{
+    color: #6fb3b8;
+    padding: 10px 10px;
+}
+
+#navbar ul li a:hover {
+    background: #6fb3b8;
+    color: #f6f6f2;
+    border-radius: 10px;
+}
+
+#navbar ul li a.current{
+    background: #6fb3b8;
+    color: #f6f6f2;
+    border-radius: 10px;
+}
+
+#icon-heading {
+    font-size: 26px;
+    font-weight: bold;
+    color: #f6f6f2;
+    float: left;
+}
+
+/* Form Styling */
+
+body {
+    background: #badce7;
+}
+
+#contact-us{
+    background: #f6f6f2;
+    color: #388087;
+    margin: 150px 350px;
+    display: flex;
+    margin-bottom: 140px;
+    box-shadow: #388087 10px 10px;
+}
+
+#contact-us a{
+    
+    color: #388087;
+    font-size: 18px;
+}
+
+#contact-us a:hover{
+    
+    color: #6fb3b8;
+    font-size: 18px;
+}
+#contact-us table th{
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+#contact-us table tr{
+    font-size: 18px;
+}
+
+#contact-us .contact-us-left {
+    padding: 50px;
+    padding-top: 30px;
+}
+
+#contact-us .contact-us-left span{
+    font-weight: bold;
+}
+
+/* Form */
+.form{
+    padding-top: 30px;
+}
+
+.name input,.email input {
+    border: 1.5px solid #badfe7;
+    width: 300px;
+}
+
+.message textarea{
+    border: 1.5px solid #badfe7;
+    width: 300px;
+    height: 100px;
+}
+
+.send{
+    background: #badfe7;
+    color: #388087;
+    font-size: 15px;
+    border: #388087 solid 1px;
+    padding: 5px 20px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.send:hover{
+    color: #f6f6f2;
+    background: #6fb3b8;
+    cursor: pointer;
+}
+
+/* Footer Styling */
+footer {
+    background: #388087;
+    color: #6fb3b8;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    margin: 0;
+}

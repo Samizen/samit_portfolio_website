@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul{
+    list-style: none;
+}
+
+body {
+    background: #f6f6f2;
+}
+
+/* Navbar Styling */
+nav{
+    background:#388087;
+    color: #6fb3b8;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+#logo{
+    margin-left: 50px;
+}
+
+.container{
+    margin: 0 30px;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+#navbar h1 a{
+    color: #f6f6f2;
+    font-size: 24px;
+}
+
+#navbar ul li a{
+    color: #6fb3b8;
+    padding: 10px 10px;
+}
+
+#navbar ul li a:hover {
+    background: #6fb3b8;
+    color: #f6f6f2;
+    border-radius: 10px;
+}
+
+#navbar ul li a.current{
+    background: #6fb3b8;
+    color: #f6f6f2;
+    border-radius: 10px;
+}
+
+#icon-heading {
+    font-size: 26px;
+    font-weight: bold;
+    color: #f6f6f2;
+    float: left;
+}
+
+/* Icon */
+#top-icon {
+    background: #badfe7;
+    text-align: center;
+}
+
+#top-icon img{
+    display: block;
+    margin: auto;
+    width: 250px;
+    padding: 10px;
+}
+
+/* Main Section */
+.main-content{
+    color: #388087;
+    background: #f6f6f2;
+    padding-bottom: 50px;
+
+}
+.main-content h1{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.main-content p{
+    width: 1020px; 
+    font-size: 18px;
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    line-height: 1.6em;
+    text-align: justify;
+}
+
+.main-content img{
+    display: block;
+    margin: auto;
+}
+
+/* Research Section */
+
+/* Button Container */
+
+.tab-container{
+    display: flex;
+    /* border: #6fb3b8 solid 2px; */
+    padding: 20px;
+    color: #388087;
+    margin-left: 100px;
+}
+
+.tab-container .button-container {
+    padding: 20px;
+    padding-left: 0;
+    margin-left: 20px;
+    
+}
+
+.tab-container .button-container h4{
+    font-size: 20px;
+    color: #6fb3b8;
+    
+}
+
+.tab-container .button-container button{
+    width: 150px;
+    border: 1px solid #badfe7;
+    padding: 5px;
+    /* float: left; */
+    /* margin-left: 50px; */
+    font-size: 16px;
+    background-color: #6fb3b8;
+    color: #f6f6f2;
+    display: inline;
+}
+
+.tab-container .button-container button:hover {
+    background-color: #badfe7;
+    color: #f6f6f2;        
+}
+
+ .tab-panel {
+    width: 800px;
+    border: #6fb3b8 solid 2px;
+    padding: 50px;
+    background: #ffffff;
+    margin-bottom: 60px;
+    text-align: justify;
+}
+
+.tab-panel h3, .tab-panel h3 a{
+    text-align: center;
+    padding-bottom: 20px;
+    text-decoration: none;
+    color: #388087;
+    font-size: 20px;
+
+}
+
+#website-1 img, .tab-panel img{
+    width: 700px;
+    display: block;
+    margin: auto;
+    
+    padding: 20px;
+
+}
+
+/* Footer Styling */
+footer{
+    background: #388087;
+    color: #6fb3b8;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    margin: 0;
+}
